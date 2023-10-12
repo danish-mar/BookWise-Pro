@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    
+        <!-- Add Bootstrap CSS link -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+        <!-- Add Font Awesome CSS link for icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <!-- Add custom CSS for background image and purple-pink theme -->
+    <style>
+        body {
+            background-image: url(static/wpf.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }
+        
+        .navbar {
+            background-color: rgba(128, 0, 128, 0.7); /* Purple-pink background */
+            animation: fadeIn 2s; /* Add fadeIn animation */
+        }
+        
+        .navbar-brand {
+            font-family: 'Helvetica Neue', Arial, sans-serif; /* Apple-like font */
+            font-size: 2rem;
+            color: #ff69b4; /* Pink color */
+        }
+        
+        .navbar-nav .nav-link {
+            color: #ff69b4; /* Pink color */
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: #800080; /* Purple color on hover */
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .container {
+            text-align: center;
+            padding-top: 100px; /* Adjust as needed */
+        }
+        
+        .display-4 {
+            font-family: 'Helvetica Neue', Arial, sans-serif; /* Apple-like font */
+            font-size: 3rem; /* Adjust font size as desired */
+            color: #ff69b4; /* Pink color */
+        }
+        
+        .lead {
+            color: rgba(255, 255, 255, 0.8); /* Semi-transparent white text */
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        /* Style for the cute section */
+        .cute-section {
+            background-color: rgba(255, 182, 193, 0.9); /* Light pink background */
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+        }
+
+        .cute-title {
+            font-family: 'Comic Sans MS', cursive; /* Cute and playful font */
+            font-size: 2rem;
+            color: #ff69b4; /* Pink color */
+        }
+
+        .cute-text {
+            font-size: 1.2rem;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><i class="fas fa-book-open fa-icon"></i>Bookswise Pro</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home fa-icon"></i>Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="books.html"><i class="fas fa-book fa-icon"></i>Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><i class="fas fa-info-circle fa-icon"></i>About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-envelope fa-icon"></i>Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="display-4">About Us</h1>
+        <p class="lead">Discover the story behind Bookswise Pro.</p>
+    </div>
+
+    <!-- Cute About Us Section -->
+    <div class="container cute-section">
+        <h2 class="cute-title">Our Whimsical Journey</h2>
+        <p class="cute-text">Once upon a digital dream, in a world of code and books, Bookswise Pro was born. Our love for reading and our passion for technology merged to create this magical place where books come to life.</p>
+        <p class="cute-text">Our mission? To make your reading experience not only efficient but also enchanting. We're not just a library management system; we're your virtual book buddies on this delightful literary adventure.</p>
+        <p class="cute-text">Join us in this enchanting journey, where every page turned is a step closer to a world of imagination.</p>
+    </div>
+
+    <!-- Add Bootstrap JS scripts if needed -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+</body>
+</html>

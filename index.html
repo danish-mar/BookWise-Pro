@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Add Font Awesome CSS link for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <!-- Add custom CSS for background image and purple-pink theme -->
+    <style>
+        body {
+            background-image: url(static/wpf.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }
+        
+        .navbar {
+            background-color: rgba(128, 0, 128, 0.7); /* Purple-pink background */
+            animation: fadeIn 2s; /* Add fadeIn animation */
+        }
+        
+        .navbar-brand {
+            font-family: 'Helvetica Neue', Arial, sans-serif; /* Apple-like font */
+            font-size: 2rem;
+            color: #ff69b4; /* Pink color */
+        }
+        
+        .navbar-nav .nav-link {
+            color: #ff69b4; /* Pink color */
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: #800080; /* Purple color on hover */
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .container {
+            text-align: center;
+            padding-top: 250px; /* Adjust as needed */
+        }
+        
+        .display-4 {
+            font-family: 'Helvetica Neue', Arial, sans-serif; /* Apple-like font */
+            font-size: 3rem; /* Adjust font size as desired */
+            color: #ff69b4; /* Pink color */
+        }
+        
+        .lead {
+            color: rgba(255, 255, 255, 0.8); /* Semi-transparent white text */
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        /* Style for Font Awesome icons */
+        .fa-icon {
+            font-size: 2rem;
+            color: #ffffff; /* Purple color for icons */
+            margin-right: 10px; /* Add some spacing between icon and text */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><i class="fas fa-book-open fa-icon"></i>Bookswise Pro</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fas fa-home fa-icon"></i>Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dashie.html"><i class="fas fa-book fa-icon"></i>Dashie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><i class="fas fa-info-circle fa-icon"></i>About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-envelope fa-icon"></i>Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="display-4"><i class="fas fa-school fa-icon"></i><br>Shree Dhaneshwari Campus</h1>
+        <p class="lead">Discover, Borrow, and Explore</p>
+    </div>
+
+    <!-- Add Bootstrap JS scripts if needed -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+</body>
+</html>

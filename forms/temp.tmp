@@ -1,0 +1,8 @@
+            <form id="upload-form" enctype="multipart/form-data">
+                <input type="file" id="file-input" class="form-control" accept=".jpg" required>
+                <p class="error" id="profile-upload-error-msg"></p>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary xbtn" type="submit">Upload</button>
+                    <button class="btn btn-primary xbtn" type="button" onclick="cancelProfileUpload()">Cancel</button>
+                </div>
+            </form>
